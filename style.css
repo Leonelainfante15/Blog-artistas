@@ -1,6 +1,6 @@
 /* NO USAR MARGIN */
 
-* {
+* { /* este es para limpiar la pagina para empezar con un lienzo limpio (seteado)*/
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -12,29 +12,29 @@
     box-sizing: border-box;
 }
 
-.navbar {
+.navbar { /*este es el div del header*/
     padding: 16px 60px;
     background-color: #00000061;
     border-radius: 15px;
 }
-.navbar__nav {
+.navbar__nav { /* esta es la barra de navegacion*/
     display: flex;
     justify-content: space-between;
     align-items:center;
     gap: auto;
 }
 
-.navbar__nav__list {
+.navbar__nav__list { /*esta es la lista*/
     display: flex;
     gap: 23px;
     list-style: none;
 }
-.navbar__nav__list li {
+.navbar__nav__list li { /*estos los elementos de la lista*/
     color: #ffff;
     font-weight: bold;
 }
 
-.navbar__nav__button {
+.navbar__nav__button { /*este es el boton*/
     padding: 20px 37px;
     border-radius: 15px;
     background-color: #AF7000;
@@ -42,16 +42,131 @@
     color: #ffff;
 }
 
-.background {
+.background { /*este es el fondo del header y aqui ponemos los padding*/
     padding: 10px 60px;
 }
 
-.jumbotron {
+.jumbotron { /*este es el jumbotron*/
     display: flex;
     align-items: center;
     padding: 70px 0;
 }
-.jumbotron__title {
+.jumbotron__title { /*este es el titulo del jumbotron*/
     font-size: 56px;
     font-weight: bold;
+}
+
+/*.jumbotron__img {
+
+} */
+
+.tarjetasPrincipales { /*esta es la lista*/
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: auto;
+    background-color: #c0c0c0;
+
+}
+
+.tarjetasPrincipales__flechaIzquierda{
+    width: 24px;
+    height:24px ;
+    justify-content: left ;
+    align-items: center;
+}
+
+.tarjetasPrincipales__flechaDerecha{
+    width: 24px;
+    height:24px ;
+    justify-content: right ;
+    align-items: center;
+}
+
+.tarjetasPrincipales__seccionDetarjetas {
+    width: 1445px;
+    height:725px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    
+    
+}
+
+.tarjetasPrincipales__seccionDetarjetas__Romance {
+    width: 463px;
+    height:725px ;
+    
+    justify-content: left;
+    align-items: center;
+    gap: -95px;
+    padding: 15px 15px;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__Romance__imgRomance {
+    width: 433px;
+    height: 419px;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__Romance__NombreAlbum {
+font-size: 20px;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__Romance__NombreArtista {
+font-size: 16px;
+}
+
+
+
+
+
+
+.tarjetasPrincipales__seccionDetarjetas__TakeMeHome {
+    width: 463px;
+    height:725px ;
+    
+    justify-content: center;
+    align-items: center;
+    gap: -95px;
+    padding: 15px 15px;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__TakeMeHome__imgTakeMeHome {
+    width: 433px;
+    height: 419px;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__TakeMeHome__NombreAlbum {
+font-size: 20px;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__TakeMeHome__NombreArtista {
+font-size: 16px;
+}
+
+
+
+
+.tarjetasPrincipales__seccionDetarjetas__HitMeHardandSoft {
+    width: 463px;
+    height:725px ;
+    
+    justify-content: right;
+    align-items: center;
+    gap: -95px;
+    padding: 15px 15px;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__HitMeHardandSoft__imgHitMeHardandSoft {
+    width: 433px;
+    height: 419px;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__HitMeHardandSoft__NombreAlbum {
+font-size: 20px;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__HitMeHardandSoft__NombreArtista {
+font-size: 16px;
 }
