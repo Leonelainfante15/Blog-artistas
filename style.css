@@ -75,8 +75,6 @@
     justify-content: center;
     align-items:center;
     gap: auto;
-    background-color: #c0c0c0;
-
 }
 
 .tarjetasPrincipales__flechaIzquierda{
@@ -107,7 +105,7 @@
 .tarjetasPrincipales__seccionDetarjetas__Romance {
     width: 463px;
     height:725px ;
-    
+    background-color: ;
     justify-content: left;
     align-items: center;
     gap: -95px;
@@ -121,14 +119,19 @@
 
 .tarjetasPrincipales__seccionDetarjetas__Romance__NombreAlbum {
 font-size: 20px;
+color: #ffffff;
 }
 
 .tarjetasPrincipales__seccionDetarjetas__Romance__NombreArtista {
 font-size: 16px;
+color: #ffffff;
 }
 
 
-
+.tarjetasPrincipales__seccionDetarjetas__Romance__ParrafoRomance{
+    font-size: 12px;
+    color: #ffffff;
+}
 
 
 
@@ -180,3 +183,9 @@ font-size: 20px;
 .tarjetasPrincipales__seccionDetarjetas__HitMeHardandSoft__NombreArtista {
 font-size: 16px;
 }
+
+
+/*.tarjetasCentrales{
+    display: flex;
+    flex-wrap: wrap;
+} */
