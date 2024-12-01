@@ -103,7 +103,7 @@
 .tarjetasPrincipales__seccionDetarjetas__romance {
     width: 463px;
     height:725px ;
-    /*background-color: #ffffff;*/
+    /*background-color: #ffffff;*/background-image: linear-gradient(120deg, #ffffff, #ffffff49 );
     background-image: linear-gradient(120deg, #ffffff, #ffffff49 );
     justify-content: left;
     align-items: center;
@@ -133,11 +133,54 @@ color: #ffffff;
 }
 
 
+.tarjetasPrincipales__seccionDetarjetas__romance__botonesRomance{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__romance__botonSpotify {
+ background-color: #221D1D;   
+ padding: 7px 7px;
+ border-radius: 14px;
+}
+
+
+.tarjetasPrincipales__seccionDetarjetas__romance__botonYoutube {
+    background-color: #221D1D;   
+    padding: 3px 10px;
+    border-radius: 14px;
+   }
+
+
+   .tarjetasPrincipales__seccionDetarjetas__romance__botonApple {
+    background-color: #221D1D;   
+    padding: 7px 7px;
+    border-radius: 14px;
+   }
+
+   .tarjetasPrincipales__seccionDetarjetas__romance__botonDescarga{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: #221D1D;   
+    padding: 7px 7px;
+    border-radius: 14px;
+    color: #ffffff;
+   }
+
+
+
+
+
+
 
 .tarjetasPrincipales__seccionDetarjetas__takeMeHome {
     width: 463px;
     height:725px ;
-    
+    background-image: linear-gradient(150deg, #ffffff13, #61616105 );
     justify-content: center;
     align-items: center;
     gap: -95px;
@@ -158,10 +201,78 @@ color: #ffffff;
 font-size: 16px;
 color: #ffffff;
 }
+
+.tarjetasPrincipales__seccionDetarjetas__takeMeHome__textoTarjeta{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 170px;
+    padding: 7px;
+}
+
+
+.tarjetasPrincipales__seccionDetarjetas__takeMeHome__seccionPuntuacion{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: #AF7000;
+
+}
+.tarjetasPrincipales__seccionDetarjetas__takeMeHome__numeroPuntuacion{
+    color: #ffffff;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__takeMeHome__seccionEstrellas{
+    display: flex;
+    gap: 3px;
+}
+
 .tarjetasPrincipales__seccionDetarjetas__takeMeHome__parrafoTakeMeHome{
     font-size: 12px;
     color: #ffffff;
 }
+
+
+
+.tarjetasPrincipales__seccionDetarjetas__takeMeHome__botonesTakeMeHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__takeMeHome__botonSpotify {
+ background-color: #221D1D;   
+ padding: 7px 7px;
+ border-radius: 14px;
+}
+
+
+.tarjetasPrincipales__seccionDetarjetas__takeMeHome__botonYoutube {
+    background-color: #221D1D;   
+    padding: 3px 10px;
+    border-radius: 14px;
+   }
+
+
+   .tarjetasPrincipales__seccionDetarjetas__takeMeHome__botonApple {
+    background-color: #221D1D;   
+    padding: 7px 7px;
+    border-radius: 14px;
+   }
+
+   .tarjetasPrincipales__seccionDetarjetas__takeMeHome__botonDescarga{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: #221D1D;   
+    padding: 7px 7px;
+    border-radius: 14px;
+    color: #ffffff;
+   }
+
+
 
 
 
