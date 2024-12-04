@@ -67,13 +67,17 @@
 }
 
 
-.tarjetasPrincipales { /*esta es la lista*/
+.tarjetasPrincipales { /*esta es la primra seccion completa*/
+    width: 1512px;
+    height: 725px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items:center;
     gap: auto;
     background-color: #090909;
 }
+
+/*aqui comienza el contenido de la seccion*/
 
 .tarjetasPrincipales__flechaIzquierda{
     width: 24px;
@@ -89,24 +93,27 @@
     align-items: center;
 }
 
-.tarjetasPrincipales__seccionDetarjetas {
-    width: 1445px;
-    height:725px ;
+.tarjetasPrincipales__seccionDetarjetas {  /*aqui comienza la seccion de las tarjetas*/
+    width: 1436px;
+    height: 725px ;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 28px;
-    
+    background-color: #090909;
     
 }
 
+/*aqui comienza la tarjeta de Romance*/
+
 .tarjetasPrincipales__seccionDetarjetas__romance {
-    width: 463px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    width: 460px;
     height:725px ;
-    /*background-color: #ffffff;*/background-image: linear-gradient(120deg, #ffffff, #ffffff49 );
-    background-image: linear-gradient(120deg, #ffffff, #ffffff49 );
-    justify-content: left;
-    align-items: center;
+    background-image: linear-gradient(150deg, #090909, #ffffff0e );
     gap: -95px;
     padding: 15px 15px;
 }
@@ -127,7 +134,37 @@ color: #ffffff;
 }
 
 
+.tarjetasPrincipales__seccionDetarjetas__romance__textoTarjeta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+    padding: 0px 7px;
+
+}
+
+.tarjetasPrincipales__seccionDetarjetas__romance__seccionPuntuacion{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: #090909;
+
+}
+
+.tarjetasPrincipales__seccionDetarjetas__romance__numeroPuntuacion{
+    color: #ffffff;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__romance__seccionEstrellas{
+    display: flex;
+    gap: 3px;
+}
+
+
 .tarjetasPrincipales__seccionDetarjetas__romance__parrafoRomance{
+    display: flex;
+    width: 405px;
+    height: 108px;
     font-size: 12px;
     color: #ffffff;
 }
@@ -137,6 +174,8 @@ color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 419px;
+    height: 42px;
     gap: 10px;
     padding: 10px 0px;
 }
@@ -171,18 +210,19 @@ color: #ffffff;
     color: #ffffff;
    }
 
+   /*aqui termina la tarjeta de Romance*/
 
 
-
-
-
+    /*aqui comienza la tarjeta de Take Me Home*/
 
 .tarjetasPrincipales__seccionDetarjetas__takeMeHome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
     width: 463px;
     height:725px ;
-    background-image: linear-gradient(150deg, #ffffff13, #61616105 );
-    justify-content: center;
-    align-items: center;
+    background-image: linear-gradient(150deg, #090909, #ffffff0e );
     gap: -95px;
     padding: 15px 15px;
 }
@@ -205,9 +245,9 @@ color: #ffffff;
 .tarjetasPrincipales__seccionDetarjetas__takeMeHome__textoTarjeta{
     display: flex;
     align-items: center;
-    justify-content: left;
-    gap: 170px;
-    padding: 7px;
+    justify-content: space-between;
+    gap: 0px;
+    padding: 0px 7px;
 }
 
 
@@ -228,8 +268,12 @@ color: #ffffff;
 }
 
 .tarjetasPrincipales__seccionDetarjetas__takeMeHome__parrafoTakeMeHome{
+    display: flex;
+    width: 405px;
+    height: 108px;
     font-size: 12px;
     color: #ffffff;
+
 }
 
 
@@ -238,6 +282,8 @@ color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 419px;
+    height: 42px;
     gap: 10px;
     padding: 10px 0px;
 }
@@ -272,17 +318,20 @@ color: #ffffff;
     color: #ffffff;
    }
 
+   /*aqui termina la tarjeta de Take Me Home*/
 
 
 
-
+    /*aqui comienza la tarjeta de Hit Me Hard and Soft*/
 
 .tarjetasPrincipales__seccionDetarjetas__hitMeHardandSoft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
     width: 463px;
     height:725px ;
-    
-    justify-content: right;
-    align-items: center;
+    background-image: linear-gradient(150deg, #090909, #ffffff0e);
     gap: -95px;
     padding: 15px 15px;
 }
@@ -300,9 +349,112 @@ color: #ffffff}
 font-size: 16px;
 color: #ffffff;
 }
+
+.tarjetasPrincipales__seccionDetarjetas__hitMeHardandSoft__textoTarjeta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+    padding: 0px 7px;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__hitMeHardandSoft__seccionPuntuacion{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: #AF7000;
+
+}
+
+.tarjetasPrincipales__seccionDetarjetas__hitMeHardandSoft__numeroPuntuacion{
+    color: #ffffff;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__hitMeHardandSoft__seccionEstrellas{
+    display: flex;
+    gap: 3px;
+}
+
+
 .tarjetasPrincipales__seccionDetarjetas__hitMeHardandSoft__parrafoHitMeHardandSoft{
+    display: flex;
+    width: 405px;
+    height: 108px;
     font-size: 12px;
     color: #ffffff;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__hitMeHardandSoft__botonesHitMeHardandSoft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 419px;
+    height: 42px;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+.tarjetasPrincipales__seccionDetarjetas__hitMeHardandSoft__botonSpotify {
+ background-color: #221D1D;   
+ padding: 7px 7px;
+ border-radius: 14px;
+}
+
+
+.tarjetasPrincipales__seccionDetarjetas__hitMeHardandSoft__botonYoutube {
+    background-color: #221D1D;   
+    padding: 3px 10px;
+    border-radius: 14px;
+   }
+
+
+   .tarjetasPrincipales__seccionDetarjetas__hitMeHardandSoft__botonApple {
+    background-color: #221D1D;   
+    padding: 7px 7px;
+    border-radius: 14px;
+   }
+
+   .tarjetasPrincipales__seccionDetarjetas__hitMeHardandSoft__botonDescarga{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: #221D1D;   
+    padding: 7px 7px;
+    border-radius: 14px;
+    color: #ffffff;
+   }
+
+
+    /*aqui termina la tarjeta de Hit Me Hard and Soft*/
+
+
+
+    /*aqui comienza el segundo jumbotron*/
+
+.jumbotronSecundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1512px;
+    height: 196px;
+    padding: 0px 60px;
+    gap: -80px;
+    background-color: #090909;
+}
+
+.jumbotronSecundario__title { /*este es el titulo del jumbotron*/
+    font-size: 56px;
+    font-weight: bold;
+    color: #ffffff;
+    align-items: center;
+
+
+}
+
+.jumbotronSecundario__img {
+    width: 24px;
+    height: 24px;
 }
 
 
@@ -310,3 +462,1089 @@ color: #ffffff;
     display: flex;
     flex-wrap: wrap;
 } */
+
+.tarjetasCentrales{ /*esta es la primra seccion completa*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    width: 1512px;
+    height: 1278px;
+    gap: 42;
+    background-color: #090909;
+    padding: 0px 60px;
+}
+
+ /*aqui empieza la tarjeta de Birds Of A Feather*/
+
+.tarjetasCentrales__birdsOfAfeather {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 658px;
+    height: 388px;
+    background-image: linear-gradient(150deg, #090909, #ffffff0e );
+    gap: auto;
+    padding: 15px 15px; 
+    border-radius: 10px;
+}
+
+.tarjetasCentrales__birdsOfAfeather__imgNombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjetasCentrales__birdsOfAfeather__imgBirdsOfAfeather {
+    width: 251px;
+    height: 251px;
+}
+
+.tarjetasCentrales__birdsOfAfeather__nombreArtista {
+    font-size: 20px;
+    color: #ffff;
+}
+
+.tarjetasCentrales__birdsOfAfeather__contenidoBotones {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    width: 377px;
+    height: 368px;
+    padding: 15px 15px;
+    gap: 20px;
+}
+
+.tarjetasCentrales__birdsOfAfeather__contenidoBotones__nombrePuntuacionParrafo{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 347px;
+height: 244px;
+gap: auto;
+padding: 10px 0px;
+}
+
+
+
+.tarjetasCentrales__birdsOfAfeather__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion{ 
+    display: flex;
+    align-items: start;
+    justify-content:space-between;
+    width: 347px;
+    height: 78px;
+    padding: 34px 0px;
+    gap: auto;
+
+}
+
+.tarjetasCentrales__birdsOfAfeather__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__nombreCancion{
+    font-size: 20px;
+    color: #ffff;
+}
+
+.tarjetasCentrales__birdsOfAfeather__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    width: 153px;
+    height: 60px;
+
+    gap: 0px;
+}
+
+.tarjetasCentrales__birdsOfAfeather__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion__numeroPuntuacion {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.tarjetasCentrales__birdsOfAfeather__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion__seccionEstrellas { 
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 123px;
+    height: 24px;
+    gap: 3;
+
+}
+
+.tarjetasCentrales__birdsOfAfeather__contenidoBotones__nombrePuntuacionParrafo__parrafoBirdsOfAFeather {
+    display: flex;
+    align-items:start;
+    justify-content: left;
+    width: 347px;
+    height: 126px;
+    gap: auto;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.tarjetasCentrales__birdsOfAfeather__contenidoBotones__botonesBirdsOfAFeather{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.tarjetasCentrales__birdsOfAfeather__contenidoBotones__botonSpotify {
+ background-color: #221D1D;  
+ width: 82px;
+ height: 42px; 
+ padding: 4px 4px;
+ border-radius: 14px;
+ gap: auto;
+}
+
+
+.tarjetasCentrales__birdsOfAfeather__contenidoBotones__botonYoutube {
+    background-color: #221D1D;  
+    width: 82px;
+    height: 42px;  
+    padding: 4px 4px;
+    border-radius: 14px;
+    gap: 10px;
+   }
+
+
+   .tarjetasCentrales__birdsOfAfeather__contenidoBotones__botonApple {
+    background-color: #221D1D; 
+    width: 87.33px;
+    height: 42px;   
+    padding: 4px 0px;
+    border-radius: 14px;
+    gap: auto;
+   }
+
+   .tarjetasCentrales__birdsOfAfeather__contenidoBotones__botonDescarga{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #221D1D;   
+    width: 117px;
+    height: 42px; 
+    padding: 10px 10px;
+    gap: 2px;
+    border-radius: 14px;
+    color: #ffffff;
+   }
+
+/*aqui termina la tarjeta de Birds Of A Feather*/
+
+
+/*aqui empieza la tarjeta de Juno*/
+
+   .tarjetasCentrales__juno {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 658px;
+    height: 388px;
+    background-image: linear-gradient(150deg, #090909, #ffffff0e );
+    gap: auto;
+    padding: 15px 15px; 
+    border-radius: 10px;
+}
+
+.tarjetasCentrales__juno__imgNombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjetasCentrales__juno__imgJuno {
+    width: 251px;
+    height: 251px;
+}
+
+.tarjetasCentrales__juno__nombreArtista {
+    font-size: 20px;
+    color: #ffff;
+}
+
+.tarjetasCentrales__juno__contenidoBotones {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    width: 377px;
+    height: 368px;
+    padding: 15px 15px;
+    gap: 20px;
+}
+
+.tarjetasCentrales__juno__contenidoBotones__nombrePuntuacionParrafo{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 347px;
+height: 244px;
+gap: auto;
+padding: 10px 0px;
+}
+
+
+
+.tarjetasCentrales__juno__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion{ 
+    display: flex;
+    align-items: start;
+    justify-content:space-between;
+    width: 347px;
+    height: 78px;
+    padding: 34px 0px;
+    gap: auto;
+
+}
+
+.tarjetasCentrales__juno__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__nombreCancion{
+    font-size: 20px;
+    color: #ffff;
+}
+
+.tarjetasCentrales__juno__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    width: 153px;
+    height: 60px;
+
+    gap: 0px;
+}
+
+.tarjetasCentrales__juno__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion__numeroPuntuacion {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.tarjetasCentrales__juno__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion__seccionEstrellas { 
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 123px;
+    height: 24px;
+    gap: 3;
+
+}
+
+.tarjetasCentrales__juno__contenidoBotones__nombrePuntuacionParrafo__juno__parrafoJuno {
+    display: flex;
+    align-items:start;
+    justify-content: left;
+    width: 347px;
+    height: 126px;
+    gap: auto;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.tarjetasCentrales__juno__contenidoBotones__botonesJuno{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjetasCentrales__juno__contenidoBotones__botonSpotify {
+ background-color: #221D1D;  
+ width: 82px;
+ height: 42px; 
+ padding: 4px 4px;
+ border-radius: 14px;
+ gap: auto;
+}
+
+
+.tarjetasCentrales__juno__contenidoBotones__botonYoutube {
+    background-color: #221D1D;  
+    width: 82px;
+    height: 42px;  
+    padding: 4px 4px;
+    border-radius: 14px;
+    gap: 10px;
+   }
+
+
+   .tarjetasCentrales__juno__contenidoBotones__botonApple {
+    background-color: #221D1D; 
+    width: 87.33px;
+    height: 42px;   
+    padding: 4px 0px;
+    border-radius: 14px;
+    gap: auto;
+   }
+
+   .tarjetasCentrales__juno__contenidoBotones__botonDescarga{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #221D1D;   
+    width: 117px;
+    height: 42px; 
+    padding: 10px 10px;
+    gap: 2px;
+    border-radius: 14px;
+    color: #ffffff;
+   }
+
+/*aqui termina la tarjeta de Juno*/
+
+
+/*aqui empieza la tarjeta de One Last Time*/
+
+   .tarjetasCentrales__oneLastTime {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 658px;
+    height: 388px;
+    background-image: linear-gradient(150deg, #090909, #ffffff0e );
+    gap: auto;
+    padding: 15px 15px; 
+    border-radius: 10px;
+}
+
+.tarjetasCentrales__oneLastTime__imgNombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjetasCentrales__oneLastTime__imgOneLastTime{
+    width: 251px;
+    height: 251px;
+}
+
+.tarjetasCentrales__oneLastTime__nombreArtista {
+    font-size: 20px;
+    color: #ffff;
+}
+
+.tarjetasCentrales__oneLastTime__contenidoBotones {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    width: 377px;
+    height: 368px;
+    padding: 15px 15px;
+    gap: 20px;
+}
+
+.tarjetasCentrales__oneLastTime__contenidoBotones__nombrePuntuacionParrafo{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 347px;
+height: 244px;
+gap: auto;
+padding: 10px 0px;
+}
+
+
+
+.tarjetasCentrales__oneLastTime__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion{ 
+    display: flex;
+    align-items: start;
+    justify-content:space-between;
+    width: 347px;
+    height: 78px;
+    padding: 34px 0px;
+    gap: auto;
+
+}
+
+.tarjetasCentrales__oneLastTime__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__nombreCancion{
+    font-size: 20px;
+    color: #ffff;
+}
+
+.tarjetasCentrales__oneLastTime__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    width: 153px;
+    height: 60px;
+
+    gap: 0px;
+}
+
+.tarjetasCentrales__oneLastTime__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion__numeroPuntuacion {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.tarjetasCentrales__oneLastTime__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion__seccionEstrellas { 
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 123px;
+    height: 24px;
+    gap: 3;
+
+}
+
+.tarjetasCentrales__oneLastTime__contenidoBotones__nombrePuntuacionParrafo__oneLastTime_parrafoOneLastTime {
+    display: flex;
+    align-items:start;
+    justify-content: left;
+    width: 347px;
+    height: 126px;
+    gap: auto;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.tarjetasCentrales__oneLastTime__contenidoBotones__botonesOneLastTime{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjetasCentrales__oneLastTime__contenidoBotones__botonSpotify {
+ background-color: #221D1D;  
+ width: 82px;
+ height: 42px; 
+ padding: 4px 4px;
+ border-radius: 14px;
+ gap: auto;
+}
+
+
+.tarjetasCentrales__oneLastTime__contenidoBotones__botonYoutube {
+    background-color: #221D1D;  
+    width: 82px;
+    height: 42px;  
+    padding: 4px 4px;
+    border-radius: 14px;
+    gap: 10px;
+   }
+
+
+   .tarjetasCentrales__oneLastTime__contenidoBotones__botonApple {
+    background-color: #221D1D; 
+    width: 87.33px;
+    height: 42px;   
+    padding: 4px 0px;
+    border-radius: 14px;
+    gap: auto;
+   }
+
+   .tarjetasCentrales__oneLastTime__contenidoBotones__botonDescarga{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #221D1D;   
+    width: 117px;
+    height: 42px; 
+    padding: 10px 10px;
+    gap: 2px;
+    border-radius: 14px;
+    color: #ffffff;
+   }
+
+   /*aqui termina la tarjeta de One Last Time*/
+
+
+
+   /*aqui empieza la tarjeta de Save Your Tears*/
+
+   .tarjetasCentrales__saveYourTears {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 658px;
+    height: 388px;
+    background-image: linear-gradient(150deg, #090909, #ffffff0e );
+    gap: auto;
+    padding: 15px 15px; 
+    border-radius: 10px;
+}
+
+.tarjetasCentrales__saveYourTears__imgNombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjetasCentrales__saveYourTears__imgSaveYourTears{
+    width: 251px;
+    height: 251px;
+}
+
+.tarjetasCentrales__saveYourTears__nombreArtista {
+    font-size: 20px;
+    color: #ffff;
+}
+
+.tarjetasCentrales__saveYourTears__contenidoBotones {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    width: 377px;
+    height: 368px;
+    padding: 15px 15px;
+    gap: 20px;
+}
+
+.tarjetasCentrales__saveYourTears__contenidoBotones__nombrePuntuacionParrafo{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 347px;
+height: 244px;
+gap: auto;
+padding: 10px 0px;
+}
+
+
+
+.tarjetasCentrales__saveYourTears__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion{ 
+    display: flex;
+    align-items: start;
+    justify-content:space-between;
+    width: 347px;
+    height: 78px;
+    padding: 34px 0px;
+    gap: auto;
+
+}
+
+.tarjetasCentrales__saveYourTears__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__nombreCancion{
+    font-size: 20px;
+    color: #ffff;
+}
+
+.tarjetasCentrales__saveYourTears__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    width: 153px;
+    height: 60px;
+
+    gap: 0px;
+}
+
+.tarjetasCentrales__saveYourTears__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion__numeroPuntuacion {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.tarjetasCentrales__saveYourTears__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion__seccionEstrellas { 
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 123px;
+    height: 24px;
+    gap: 3;
+
+}
+
+.tarjetasCentrales__saveYourTears__contenidoBotones__nombrePuntuacionParrafo__parrafoSaveYourTears {
+    display: flex;
+    align-items:start;
+    justify-content: left;
+    width: 347px;
+    height: 126px;
+    gap: auto;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.tarjetasCentrales__saveYourTears__contenidoBotones__botonesSaveYourTears{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjetasCentrales__saveYourTears__contenidoBotones__botonSpotify {
+ background-color: #221D1D;  
+ width: 82px;
+ height: 42px; 
+ padding: 4px 4px;
+ border-radius: 14px;
+ gap: auto;
+}
+
+
+.tarjetasCentrales__saveYourTears__contenidoBotones__botonYoutube {
+    background-color: #221D1D;  
+    width: 82px;
+    height: 42px;  
+    padding: 4px 4px;
+    border-radius: 14px;
+    gap: 10px;
+   }
+
+
+   .tarjetasCentrales__saveYourTears__contenidoBotones__botonApple {
+    background-color: #221D1D; 
+    width: 87.33px;
+    height: 42px;   
+    padding: 4px 0px;
+    border-radius: 14px;
+    gap: auto;
+   }
+
+   .tarjetasCentrales__saveYourTears__contenidoBotones__botonDescarga{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #221D1D;   
+    width: 117px;
+    height: 42px; 
+    padding: 10px 10px;
+    gap: 2px;
+    border-radius: 14px;
+    color: #ffffff;
+   }
+
+   /*aqui termina la tarjeta de Save Your Tears*/
+
+
+
+   /*aqui empieza la tarjeta de Work From Home*/
+
+   .tarjetasCentrales__workFromHome {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 658px;
+    height: 388px;
+    background-image: linear-gradient(150deg, #090909, #ffffff0e );
+    gap: auto;
+    padding: 15px 15px; 
+    border-radius: 10px;
+}
+
+.tarjetasCentrales__workFromHome__imgNombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjetasCentrales__workFromHome__imgWorkFromHome{
+    width: 251px;
+    height: 251px;
+}
+
+.tarjetasCentrales__workFromHome__nombreArtista {
+    font-size: 20px;
+    color: #ffff;
+}
+
+.tarjetasCentrales__workFromHome__contenidoBotones {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+    width: 377px;
+    height: 368px;
+    padding: 15px 15px;
+    gap: 20px;
+}
+
+.tarjetasCentrales__workFromHome__contenidoBotones__nombrePuntuacionParrafo{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 347px;
+height: 244px;
+gap: auto;
+padding: 10px 0px;
+}
+
+
+
+.tarjetasCentrales__workFromHome__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion{ 
+    display: flex;
+    align-items: start;
+    justify-content:space-between;
+    width: 347px;
+    height: 78px;
+    padding: 34px 0px;
+    gap: auto;
+
+}
+
+.tarjetasCentrales__workFromHome__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__nombreCancion{
+    font-size: 20px;
+    color: #ffff;
+}
+
+.tarjetasCentrales__workFromHome__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    width: 153px;
+    height: 60px;
+
+    gap: 0px;
+}
+
+.tarjetasCentrales__workFromHome__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion__numeroPuntuacion {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.tarjetasCentrales__workFromHome__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion__seccionEstrellas { 
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 123px;
+    height: 24px;
+    gap: 3;
+
+}
+
+.tarjetasCentrales__workFromHome__contenidoBotones__nombrePuntuacionParrafo__parrafoWorkFromHome {
+    display: flex;
+    align-items:start;
+    justify-content: left;
+    width: 347px;
+    height: 126px;
+    gap: auto;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.tarjetasCentrales__workFromHome__contenidoBotones__botonesWorkFromHome{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjetasCentrales__workFromHome__contenidoBotones__botonSpotify {
+ background-color: #221D1D;  
+ width: 82px;
+ height: 42px; 
+ padding: 4px 4px;
+ border-radius: 14px;
+ gap: auto;
+}
+
+
+.tarjetasCentrales__workFromHome__contenidoBotones__botonYoutube {
+    background-color: #221D1D;  
+    width: 82px;
+    height: 42px;  
+    padding: 4px 4px;
+    border-radius: 14px;
+    gap: 10px;
+   }
+
+
+   .tarjetasCentrales__workFromHome__contenidoBotones__botonApple {
+    background-color: #221D1D; 
+    width: 87.33px;
+    height: 42px;   
+    padding: 4px 0px;
+    border-radius: 14px;
+    gap: auto;
+   }
+
+   .tarjetasCentrales__workFromHome__contenidoBotones__botonDescarga{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #221D1D;   
+    width: 117px;
+    height: 42px; 
+    padding: 10px 10px;
+    gap: 2px;
+    border-radius: 14px;
+    color: #ffffff;
+   }
+
+
+      /*aqui termina la tarjeta de Work From Home*/
+
+
+
+   /*aqui empieza la tarjeta de Rolling In The Deep*/
+
+   .tarjetasCentrales__rollingInTheDeep {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 658px;
+    height: 388px;
+    background-image: linear-gradient(150deg, #090909, #ffffff0e );
+    gap: auto;
+    padding: 15px 15px; 
+    border-radius: 10px;
+}
+
+.tarjetasCentrales__rollingInTheDeep__imgNombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjetasCentrales__rollingInTheDeep__imgRollingInTheDeep{
+    width: 251px;
+    height: 251px;
+}
+
+.tarjetasCentrales__rollingInTheDeep__nombreArtista {
+    font-size: 20px;
+    color: #ffff;
+}
+
+.tarjetasCentrales__rollingInTheDeep__contenidoBotones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 377px;
+    height: 368px;
+    padding: 15px 15px;
+    gap: 20px;
+}
+
+.tarjetasCentrales__rollingInTheDeep__contenidoBotones__nombrePuntuacionParrafo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 347px;
+    height: 244px;
+    gap: auto;
+    padding: 10px 0px;
+}
+
+
+
+.tarjetasCentrales__rollingInTheDeep__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion{ 
+    display: flex;
+    align-items: start;
+    justify-content:space-between;
+    width: 347px;
+    height: 78px;
+    padding: 34px 0px;
+    gap: auto;
+
+}
+
+.tarjetasCentrales__rollingInTheDeep__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__nombreCancion{
+    font-size: 20px;
+    color: #ffff;
+}
+
+.tarjetasCentrales__rollingInTheDeep__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    width: 153px;
+    height: 60px;
+
+    gap: 0px;
+}
+
+.tarjetasCentrales__rollingInTheDeep__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion__numeroPuntuacion {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.tarjetasCentrales__rollingInTheDeep__contenidoBotones__nombrePuntuacionParrafo__tituloPuntuacion__seccionPuntuacion__seccionEstrellas { 
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    width: 123px;
+    height: 24px;
+    gap: 3;
+
+}
+
+.tarjetasCentrales__rollingInTheDeep__contenidoBotones__nombrePuntuacionParrafo__parrafoRollingInTheDeep {
+    display: flex;
+    align-items:start;
+    justify-content: left;
+    width: 347px;
+    height: 126px;
+    gap: auto;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.tarjetasCentrales__rollingInTheDeep__contenidoBotones__botonesRollingInTheDeep{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjetasCentrales__rollingInTheDeep__contenidoBotones__botonSpotify {
+ background-color: #221D1D;  
+ width: 82px;
+ height: 42px; 
+ padding: 4px 4px;
+ border-radius: 14px;
+ gap: auto;
+}
+
+
+.tarjetasCentrales__rollingInTheDeep__contenidoBotones__botonYoutube {
+    background-color: #221D1D;  
+    width: 82px;
+    height: 42px;  
+    padding: 4px 4px;
+    border-radius: 14px;
+    gap: 10px;
+   }
+
+
+   .tarjetasCentrales__rollingInTheDeep__contenidoBotones__botonApple {
+    background-color: #221D1D; 
+    width: 87.33px;
+    height: 42px;   
+    padding: 4px 0px;
+    border-radius: 14px;
+    gap: auto;
+   }
+
+   .tarjetasCentrales__rollingInTheDeep__contenidoBotones__botonDescarga{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #221D1D;   
+    width: 117px;
+    height: 42px; 
+    padding: 10px 10px;
+    gap: 2px;
+    border-radius: 14px;
+    color: #ffffff;
+   }
+
+   /*aqui termina la tarjeta de Rolling In The Deep*/
+
+
+   /*aqui empieza el footer*/
+
+   .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1512px;
+    height: 355px;
+    background-color: #191919;
+   }
+   
+   .footer__botonesContenido{
+    background-color: #090909;
+   }
+
+   .footer__botonesContenido__contenido{
+    
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 1512px;
+    height: 188px;
+    gap: 200px;
+    padding: 4px 195px;
+
+
+   }
+
+   .footer__botonesContenido__contenido__nav{
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    width: 212px;
+    height: 150px;
+    justify-content: left;
+   }
+
+    .footer__botonesContenido__contenido__nav__tittle {
+    color: #ffff;
+    font-weight: bold;
+
+
+    }
+
+    .footer__botonesContenido__contenido__nav li {
+        color: #ffff;
+        
+    }
+
+
+
+
+
+   .footer__botonesContenido__contenido__info{
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    width: 352px;
+    height: 120px;
+    padding: 0px 0px;
+    gap: 0px;
+
+
+   }
+
+
+   .footer__botonesContenido__contenido__info__tittle {
+    color: #ffff;
+    font-weight: bold;
+
+
+    }
+
+    .footer__botonesContenido__contenido__info li {
+        color: #ffff;
+        
+    }
+
+   .footer__botonesContenido__contenido__redes {
+    background-color: #191919;
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    height: 180px;
+    list-style: none;
+    
+   }
+
+   .footer__botonesContenido__contenido__redes__tittle {
+    color: #ffff;
+    font-weight: bold;
+
+
+    }
+
+    .footer__botonesContenido__contenido__redes li {
+        color: #ffff;
+        
+    }
+
+    .footer__botonesContenido__botonesDerecho{
+        background-color: #191919;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+    }
+
+    .footer__botonesContenido__botonesDerecho__derecho{
+        color: #ffffff;
+        gap: 10px;
+        padding: 5px 5px;
+    }
+
+    .footer__botonesContenido__botonesDerecho__botones{
+        display: flex;
+        gap: 20px ;
+        padding: 5px 5px;
+    }
