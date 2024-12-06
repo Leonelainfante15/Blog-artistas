@@ -462,6 +462,7 @@ color: #ffffff;
     font-weight: bold;
     color: #ffffff;
     align-items: center;
+    text-align: center;
 
 
 }
@@ -492,10 +493,10 @@ color: #ffffff;
     /* gap: 42; */
     /* Debes darle una medida específigca */
 
-    gap: 42px;
+    gap: 50px;
 
     background-color: #090909;
-    padding: 0px 60px;
+    padding: 20px 60px;
 }
 
  /*aqui empieza la tarjeta de Birds Of A Feather*/
